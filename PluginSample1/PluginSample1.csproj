@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Version>1.0.0</Version>
+    <Product>PluginSample1</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="IPluginSwindom">
+      <HintPath>..\..\IPluginSwindom\IPluginSwindom\bin\Release\net7.0\IPluginSwindom.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
