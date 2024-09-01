@@ -99,8 +99,10 @@ public class PluginProcessing : IPlugin
     /// 初期化
     /// </summary>
     /// <param name="settingDirectory">設定のディレクトリ</param>
+    /// <param name="language">言語</param>
     public void Initialize(
-        string settingDirectory
+        string settingDirectory,
+        string language
         )
     {
     }
